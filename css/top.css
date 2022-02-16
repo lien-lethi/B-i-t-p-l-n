@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  *::before, *::after{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(207, 207, 207);
+  }
+  .container{
+    width: 350px;
+    height: 650px;
+    
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    background: linear-gradient(#a29bfe 0%, #fd878d 90%);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.342);
+     background-blend-mode: screen;
+  }
+  .dashboard{
+      margin-top: 10px;
+      height: 10px;
+      width: 350px;
+      font-size: 15px;
+
+  }
+.dashboard img{
+    width: 350px;
+    height: 180px;
+}
+  .option{
+    
+    padding-left: 30px;
+    
+    outline: none !important;
+    
+  }
+  
+  .theloai{
+      margin-top: 200px;
+    height: 360px;
+    width: 350px;
+    overflow-y:hidden;
+    overflow-y:auto;
+    
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  }
+  .theloai::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none; 
+  }
+ .thuvien1{
+    overflow-x: scroll;
+    scrollbar-width: none;
+  -ms-overflow-style: none;
+ }
+ .thuvien1::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none; 
+  }
+ 
+.thuvien1 h3{
+    font-size: 20px;
+    float: left;
+}
+.thuvien1 i{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+.playlist{
+    width: 740px;
+    height: 180px;
+    margin-left: 10px;
+    float: left;
+}
+.playlist ul{
+    margin: 0;
+    text-decoration: none;
+}
+.playlist ul li{
+    text-decoration: none;
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+.playlist ul li a{
+    text-decoration: none;
+    color: black;
+}
+.playlist ul li img{
+    width: 140px;
+    height: 100px;
+    
+}
+.playlist ul li p{
+    width: 150px;
+    font-size: 15px;
+    
+}
+
+  .menu{
+      width: 350px;
+      border-top: 1px solid white;
+        
+  }
+  .menu a.btn-list i.fa-itunes:hover{
+    
+    color: red;
+	border-color:#1da1f2;
+  }
+  .btn-list {
+
+    
+    height: 60px;
+    color: black;
+    font-size: 12px;
+    float:left;
+    text-decoration: none;
+    }
+    
+    .btn-list1 {
+        
+        margin-top: 5px;
+        
+        height: 60px;
+        
+        float:right;
+        text-decoration: none;
+        }
+    
+    

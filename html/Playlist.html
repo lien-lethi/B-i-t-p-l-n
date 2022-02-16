@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSound | Enjoy The Melody</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">    
+    <link href="/css/playlist.css" rel='stylesheet' type='text/css' media="all" />
+    <link rel="icon" href="https://sollohubmusic.com/wp-content/uploads/2016/12/favicon.png" type="image/gif" sizes="16x16">
+
+</head>
+<body>
+    
+        <div class="player">
+            
+           
+            <!-- Dashboard -->
+            <div class="dashboard">
+    
+            <!-- Favourite Song -->
+            <div class="favouriteList ">
+      
+            </div>
+              <!-- Header -->
+              <header>
+
+                <h4>Now Playing</h4>
+                
+                <a href="Home.html"> <i class="fa fa-arrow-left" style="float:left;"></i></a>   
+                <marquee>String 57th & 9th</marquee>
+              </header>
+          
+              <!-- CD -->
+              <div class="cd" id='arc-slider'>
+                <div class="circle">
+                  <div class="mask full">
+                    <div class="fill"></div>
+                  </div>
+                  <div class="mask half">
+                    <div class="fill"></div>
+                  </div>
+                </div>
+                <div class="cd-thumb"></div>
+              </div>
+               <!--progress bar-->
+              
+              <div class='progressRange'>
+                <div class='rangeValue' id='rangeValue'>00:00</div>
+                <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+              </div>
+              <div class='time'>
+                <span class="startTime">0:00</span>
+                <span class="endTime"></span>
+                
+              </div>        
+              <!-- Control -->
+              <div class="control">
+                <div class="btn btn-repeat">
+                  <i class="fas fa-redo"></i>
+                </div>
+                <div class="btn btn-prev">
+                  <i class="fas fa-step-backward"></i>
+                </div>
+                <div class="btn btn-toggle-play">
+                  <i class="fas fa-pause icon-pause"></i>
+                  <i class="fas fa-play icon-play"></i>
+                </div>
+                <div class="btn btn-next ">
+                  <i class="fas fa-step-forward"></i>
+                </div>
+                <div class="btn btn-random">
+                  <i class="fas fa-random"></i>
+                </div>
+              </div>
+              <!-- Volume Adjustment -->
+              <div class='volume'>
+                <div class='btn btn-volume'>
+                </div>
+                <div class='volumeRange'>
+                  <input type='range' id='volumeAdjust' class='volumeAdjust' min='0' max='100' value='0' step='1'/>
+                </div>
+              </div>
+    
+              <audio id="audio" src=""></audio>
+            </div>
+          
+            <!-- Playlist -->
+            <div class="playlist">
+    
+            </div>
+        
+          </div> 
+    
+         
+</body>
+<script src='/script.js'></script>
+</html>

@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  *::before, *::after{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(207, 207, 207);
+  }
+  .container{
+    width: 350px;
+    height: 650px;
+    
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    background: linear-gradient(#a29bfe 0%, #fd878d 90%);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.342);
+     background-blend-mode: screen;
+  }
+  .dashboard{
+      margin-top: 30px;
+      height: 80px;
+      width: 350px;
+      font-size: 15px;
+
+  }
+  .option{
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid #ffffff; 
+    outline: none !important;
+    
+  }
+  .form-control{
+    border-radius: 10px;
+    font-size: 18px;
+    
+  }
+  .theloai{
+    height: 440px;
+    width: 350px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  }
+  .theloai::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none; 
+  }
+.theloai1{
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+    margin-left: 70px;
+    background-color: aqua;
+}
+ 
+.theloai1 p{
+    font-size: 15px;
+}
+.playlist1{
+    width: 350px;
+    height: 40px;
+    
+    margin-top: 40px;
+    
+}
+.playlist1 ul{
+    margin: 0px;
+}
+.playlist1 ul li{
+    margin-top: 20px;
+    margin-left: 30px;
+    
+    list-style: none;
+}
+.playlist1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.playlist1 ul li p{
+    font-size: 17px;
+}
+
+img{
+    
+    width: 60px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+  .menu{
+      width: 350px;
+      border-top: 1px solid white;
+      padding-top: 5px;
+      
+      
+  }
+  .btn-list {
+
+    margin-top: 5px;
+    height: 60px;
+    color: black;
+    font-size: 12px;
+    float:left;
+    text-decoration: none;
+    }
+    
+    .btn-list1 {
+        
+        margin-top: 5px;
+        
+        height: 60px;
+        
+        float:right;
+        text-decoration: none;
+        }
+    
+    
